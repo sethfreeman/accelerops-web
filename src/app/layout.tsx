@@ -14,8 +14,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'AccelerOps - Accelerate Your DevOps Transformation',
-  description: 'Elite DevOps consulting firm specializing in modern infrastructure practices, cloud migrations, and platform engineering.',
+  title: 'AccelerOps - Accelerate Your Digital Transformation',
+  description: 'Elite consulting firm specializing in modern infrastructure practices, cloud migrations, and platform engineering.',
   keywords: ['DevOps', 'Cloud Migration', 'Platform Engineering', 'Infrastructure as Code', 'AWS', 'Azure', 'GCP'],
   authors: [{ name: 'AccelerOps' }],
   creator: 'AccelerOps',
@@ -25,14 +25,14 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://accelerops.com',
-    title: 'AccelerOps - Accelerate Your DevOps Transformation',
-    description: 'Elite DevOps consulting firm specializing in modern infrastructure practices.',
+    title: 'AccelerOps - Accelerate Your Digital Transformation',
+    description: 'Elite consulting firm specializing in modern infrastructure practices.',
     siteName: 'AccelerOps',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AccelerOps - Accelerate Your DevOps Transformation',
-    description: 'Elite DevOps consulting firm specializing in modern infrastructure practices.',
+    title: 'AccelerOps - Accelerate Your Digital Transformation',
+    description: 'Elite consulting firm specializing in modern infrastructure practices.',
   },
 };
 

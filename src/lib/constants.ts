@@ -7,7 +7,7 @@ import { NavigationItem } from '@/types';
 
 export const SITE_CONFIG = {
   name: 'AccelerOps',
-  description: 'Accelerate Your DevOps Transformation',
+  description: 'Accelerate Your Digital Transformation',
   url: 'https://accelerops.com',
   author: 'AccelerOps',
   social: {

@@ -32,15 +32,15 @@ export interface HeroProps {
  * @example
  * ```tsx
  * <Hero 
- *   tagline="Accelerate Your DevOps Transformation"
- *   subtitle="Elite DevOps consulting for modern infrastructure"
+ *   tagline="Accelerate Your Digital Transformation"
+ *   subtitle="Elite consulting firm specializing in modern infrastructure practices, cloud migrations, and platform engineering."
  *   showThemeToggle={true}
  * />
  * ```
  */
 export const Hero: React.FC<HeroProps> = ({
-  tagline = 'Accelerate Your DevOps Transformation',
-  subtitle = 'Elite DevOps consulting firm specializing in modern infrastructure practices, cloud migrations, and platform engineering.',
+  tagline = 'Accelerate Your Digital Transformation',
+  subtitle = 'Elite consulting firm specializing in modern infrastructure practices, cloud migrations, and platform engineering.',
   showThemeToggle = true,
   className,
 }) => {

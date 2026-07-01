@@ -23,8 +23,8 @@ describe('Hero Component', () => {
   it('renders with default props', () => {
     renderWithThemeProvider(<Hero />);
     
-    expect(screen.getByText('Accelerate Your DevOps Transformation')).toBeInTheDocument();
-    expect(screen.getByText(/Elite DevOps consulting firm/)).toBeInTheDocument();
+    expect(screen.getByText('Accelerate Your Digital Transformation')).toBeInTheDocument();
+    expect(screen.getByText(/Elite consulting firm/)).toBeInTheDocument();
   });
 
   it('renders with custom tagline and subtitle', () => {
@@ -68,7 +68,7 @@ describe('Hero Component', () => {
     // Should have main heading
     const heading = screen.getByRole('heading', { level: 1 });
     expect(heading).toBeInTheDocument();
-    expect(heading).toHaveTextContent('Accelerate Your DevOps Transformation');
+    expect(heading).toHaveTextContent('Accelerate Your Digital Transformation');
     
     // Should have section with aria-label
     const section = screen.getByRole('region', { name: /hero section/i });

@@ -112,7 +112,7 @@ export const Contact: React.FC<ContactProps> = ({
             </h2>
           </div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to accelerate your DevOps transformation? Let&apos;s discuss how we can 
+            Ready to accelerate your digital transformation? Let&apos;s discuss how we can 
             help optimize your infrastructure and empower your development teams.
           </p>
         </motion.div>

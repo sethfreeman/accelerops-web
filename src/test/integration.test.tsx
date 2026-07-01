@@ -61,7 +61,7 @@ describe('Integration Tests', () => {
       expect(screen.getByText('Contact')).toBeInTheDocument();
       
       // Hero section
-      expect(screen.getByText('Accelerate Your DevOps Transformation')).toBeInTheDocument();
+      expect(screen.getByText('Accelerate Your Digital Transformation')).toBeInTheDocument();
       
       // Services section
       expect(screen.getByText('Our Services')).toBeInTheDocument();
@@ -102,7 +102,7 @@ describe('Integration Tests', () => {
       expect(h1Headings.length).toBeGreaterThanOrEqual(1);
       
       // Check that the main hero h1 exists
-      const heroH1 = h1Headings.find(h1 => h1.textContent?.includes('Accelerate Your DevOps Transformation'));
+      const heroH1 = h1Headings.find(h1 => h1.textContent?.includes('Accelerate Your Digital Transformation'));
       expect(heroH1).toBeInTheDocument();
       
       const h2Headings = screen.getAllByRole('heading', { level: 2 });
